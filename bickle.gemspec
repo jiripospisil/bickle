@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Bickle::VERSION
   gem.authors       = ["Jiri Pospisil"]
   gem.email         = ["mekishizufu@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Bickle is a tool to display your build status from your terminal.}
+  gem.summary       = %q{Bickle is a tool to display your build status from your terminal.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
