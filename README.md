@@ -1,12 +1,12 @@
 # Bickle
 
-TODO: Write a gem description
+Bickle is a tool to display your build status from your terminal.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'bickle'
+    gem "bickle"
 
 And then execute:
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Display last builds of a repository
+
+```
+$ bickle rails/rails
+```
+
+- Use `-n x` to limit the number of builds to `x`
+- Use `--extend-fails` to display additional details under builds that failed.
+
+### Display details about particular build
+
+```
+$ bickle rails/rails/3139202
+```
+
+```
+$ bickle 3139202
+```
 
 ## Contributing
 
