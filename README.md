@@ -1,6 +1,6 @@
 # Bickle
 
-Bickle is a tool to display build status from terminal.
+Bickle is a tool to display Travis CI build status from terminal.
 
 ## Installation
 
