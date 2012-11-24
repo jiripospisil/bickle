@@ -2,6 +2,7 @@ require "bickle/version"
 require "bickle/errors"
 
 require "rest_client"
+require "delegate"
 
 module Bickle
   autoload :Runner, "bickle/runner"

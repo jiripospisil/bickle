@@ -20,11 +20,11 @@ module Bickle
         $ bickle builds pry/pry -c id message result -w message:20
     D
 
-    method_option :"number-of-builds", :type => :numeric, :aliases => "-n", default: 25, :desc => "Number of builds to display"
-    method_option :columns, :type => :array, :aliases => "-c", default: ["id", "branch", "commit", "message", "state", "result"], :desc => "Columns to display"
-    method_option :"columns-width", :type => :hash, :aliases => "-w", default: {}, :desc => "Width of specified columns"
-    method_option :"no-color", :type => :boolean, :aliases => "-b", default: false, :desc => "Do not use colors"
-    method_option :"no-humanize", :type => :boolean, :aliases => "-h", default: false, :desc => "Do not translate result values"
+    method_option :"number-of-builds", :type => :numeric, :aliases => "-n", :default => 25, :desc => "Number of builds to display"
+    method_option :columns, :type => :array, :aliases => "-c", :default => ["id", "branch", "commit", "message", "state", "result"], :desc => "Columns to display"
+    method_option :"columns-width", :type => :hash, :aliases => "-w", :default => {}, :desc => "Width of specified columns"
+    method_option :"no-color", :type => :boolean, :aliases => "-b", :default => false, :desc => "Do not use colors"
+    method_option :"no-humanize", :type => :boolean, :aliases => "-h", :default => false, :desc => "Do not translate result values"
 
     def builds(repository_name)
       repository = Repository.new(repository_name)
