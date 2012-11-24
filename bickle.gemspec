@@ -17,7 +17,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_dependency "rest-client", "~> 1.6.7"
+
   gem.add_development_dependency "rake", "~> 0.9.2"
+  gem.add_development_dependency "guard", "~> 1.5.4"
+  gem.add_development_dependency "rb-inotify", "~> 0.8.8"
+  gem.add_development_dependency "guard-rspec", "~> 2.1.2"
   gem.add_development_dependency "rspec", "~> 2.11.0"
   gem.add_development_dependency "pry", "~> 0.9.10"
   gem.add_development_dependency "pry-nav", "~> 0.2.2"
