@@ -2,6 +2,8 @@
 
 Bickle is a tool to display Travis CI build status from terminal.
 
+![Bickle in action](https://raw.github.com/mekishizufu/bickle/master/img.png)
+
 ## Installation
 
     $ gem install bickle
