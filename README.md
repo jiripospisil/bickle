@@ -1,4 +1,4 @@
-# Bickle
+# Bickle [![Build Status](https://secure.travis-ci.org/mekishizufu/bickle.png)](http://travis-ci.org/mekishizufu/bickle) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/mekishizufu/bickle)
 
 Bickle is a tool to display Travis CI build status from terminal.
 
@@ -14,7 +14,7 @@ Bickle is a tool to display Travis CI build status from terminal.
 
     $ bickle builds rails/rails
 
-See `bickle help builds` for all available options.
+See `bickle help builds` for all available options and examples.
 
 ## TODO
 - `bickle build 123` - Display details about particular build
