@@ -10,7 +10,8 @@ Gem::Specification.new do |gem|
   gem.email         = ["mekishizufu@gmail.com"]
   gem.description   = %q{Bickle is a tool to display your build status from your terminal.}
   gem.summary       = %q{Bickle is a tool to display your build status from your terminal.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/mekishizufu/bickle"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
