@@ -11,7 +11,7 @@ module Bickle
     private
 
     def parse_name(name)
-      regex = "[A-Za-z0-9_-]+"
+      regex = "[A-Za-z0-9\._-]+"
 
       if name =~ Regexp.new("^#{regex}\/#{regex}$")
         name
