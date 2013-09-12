@@ -31,5 +31,11 @@ module Bickle
         repository = Repository.new("foo_bar")
       end.not_to raise_error(InvalidRepositoryNameError)
     end
+
+    it "allows dots in the repo name" do
+      expect do
+        repository = Repository.new("foo-bar/foo_bar.github.io")
+      end.not_to raise_error(InvalidRepositoryNameError)
+    end
   end
 end
